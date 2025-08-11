@@ -17,10 +17,10 @@ const Home = () => {
   if (error) return <ErrorMessage message={error} />;
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px", textAlign: "center" }}>
       {/* Page title */}
       <Typography variant="h3" gutterBottom>
-        Recipe Categories
+        Recipe Discovery
       </Typography>
 
       {/* Subtitle below the title */}
