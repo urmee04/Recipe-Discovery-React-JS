@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     //AppBar is Material UI's component for a top navigation bar
-    <AppBar position="static" sx={{ backgroundColor: "#1976d2" }}>
+    <AppBar position="static" sx={{ backgroundColor: "#d29b19ff" }}>
       {/* Toolbar arranges items horizontally inside the AppBar */}
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         {/* position left side navigation links */}
