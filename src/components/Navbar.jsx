@@ -52,18 +52,10 @@ function Navbar() {
 
           <Typography
             component={Link} //Link to Category page
-            to="/category"
+            to="/favorites"
             sx={{ color: "#fff", textDecoration: "none", fontWeight: "bold" }}
           >
-            Category
-          </Typography>
-
-          <Typography
-            component={Link} // Link to Recipe Details page
-            to="/recipedetails"
-            sx={{ color: "#fff", textDecoration: "none", fontWeight: "bold" }}
-          >
-            Recipe
+            Favorites
           </Typography>
         </Box>
 
