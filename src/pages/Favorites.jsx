@@ -14,11 +14,6 @@ const Favorites = () => {
   return (
     // A root div with some padding for the entire page
     <div style={{ padding: "20px" }}>
-      {/* Page title */}
-      <Typography variant="h3" gutterBottom>
-        Your Favorite Recipes
-      </Typography>
-
       {/*  Conditional Rendering */}
       {/* Check if the favorites array is empty. */}
       {/* If it is, display a message. Otherwise, display the list of favorite recipes. */}
