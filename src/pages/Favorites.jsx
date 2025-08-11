@@ -31,8 +31,14 @@ const Favorites = () => {
             // This is the destination path for the link
             to="/"
             variant="contained"
-            color="primary"
             size="large"
+            sx={{
+              backgroundColor: "#d29b19ff",
+              color: "#fff", // text color
+              "&:hover": {
+                backgroundColor: "#b38215", // darker shade for hover
+              },
+            }}
           >
             Browse Recipes
           </Button>
